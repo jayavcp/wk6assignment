@@ -10,7 +10,7 @@ export default function App() {
   useEffect(() => {
     //Stretch: do some maths here for the 1000/cps
     //a timer to be created when the page loads to increase chicks by cps every second
-
+    console.log("effect has been called");
     const myInterval = setInterval(() => {
       addChick();
     }, 1000 / cps);
